@@ -1,35 +1,173 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>nagatera</title>
+    <title>Meu portal de notícias</title>
+    <link rel="stylesheet" href="./main.css" />
 </head>
 <body>
-    <h1>Meu primeiro arquivo HTML</h1>
-    <h2>Minha tag h2</h2>
-    <h3>minha tag h3</h3>
-    <h4>minha tag h4</h4>
-    <h5>minha tag h5</h5>
-    <h6>minha tag h6</h6>
-    <hr />
-    <p><b>Lorem</b> <strong>ipsum</strong> <br />dolor sit, amet <small>consectetur </small> 
-        <i>adipisicing elit</i>. Accusamus <mark>distinctio </mark> quo <span> odio</span> <del>explicabo </del> maxime iusto sed! Voluptates quia accusantium quae asperiores magnam aspernatur sequi? Alias obcaecati veritatis sed odio illum?
-    </p>
-    <a href="https://google.com" title="Ir para o site do google."> Ir para o google
-    <a href="tel:7998119379">79998119379</a>
-    <a href="mailto:felipe.tif1@gmail.com".>Entre em contato por email</a>
-<hr />
-<blockquote> Olá, mundo
-
-</blockquote>
-<address><strong> Rua itabyra marques de barros, n 303 CEP 49000-224</strong></address>    
-    <hr />
-    <a href="./containers.html">Ir para página containers</a>
-    <a href="./lista.html"> Ir para página lista</a>
-    <a href="./tabela.html"> Ir para página tabela</a>
-    <a href="./forms.html"> Ir para página forms</a>
-    <a href="./midia.html"> ir para Págia de midia</a>
+    <header>
+        <div class="container">
+        <h1>Meu portal de notícias</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Inicio" title="Ir para pagina inicial">Inicio</a>
+                </li>
+                <li>
+                    <a href="#esportes" title="Ir para a seção de esportes">Esportes</a>
+                </li>
+                <li>
+                    <a href="#economy" title="Ir para a seção de notícias">Economia</a>
+                <li>
+                <li> 
+                    <a href="#tec" title="Ir para a seção de Tenclogia">Tecnologia</a>
+                </li>
+                <li> 
+                    <a href="#entretenimento" title="Ir para a seção de entretenimento">Entretenimento</a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="esportes"> 
+        <div class="container">
+            <h2>Esportes</h2>
+            <div class="articles">
+            <article>
+                <img src="./imagens/futebol.jpg" alt="Bola de futebol no gramado" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Grande clássico na noite de hoje</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão" />
+                <header>
+                    <div class="overlay"></div:>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Noite do Superbowl</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+            <article>
+                <img src="./imagens/basquete.jpg" title="Vista aérea de uma quadra de basquete" />
+                <header>
+                    <time>13/07/2022 às 12:35</time>
+                </header>
+                <h3>Notícia sobre a NBA</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#" title="Leia a notícia completa">Ler mais</a>
+            </article>
+        </div>
+    </section>
+    <section id="economy">
+        <div class="container"> 
+        <h2>Economia</h2>
+        <div class="articles">
+        <article>
+            <img src="./imagens/dolares.jpg" alt="Muitos dólares" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Dólar em alta de 0.50%</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+<br />
+        <article>
+            <img src="./imagens/euro.jpg" alt="Várias notas de euro" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Euro em queda de 0.40%</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+<br />
+        <article>
+            <img src="./imagens/petroleo.jpg" alt="Extração de petróleo" />
+            <header>
+                <time>13/07/2022 às 12:35</time>
+            </header>
+            <h3>Alta no preço do barril do petróleo</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article> 
+<br />
+        </section>
+        <section id="tec">
+        <div class="container">   
+            <h3>Tecnologia</h3>
+            <div class="articles">
+        <article>
+<br /> 
+            <img src="imagens/th-770447074 (1).jpeg" alt="Mão tecnolgica" />
+            <header>
+                <time>28/02/2023 às 17:32</time>
+            </header>
+            <h3>Indústria tecnologica e área que mais cresce em 2023</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+            </p>
+            <a href="#" title="Leia a notícia completa">Ler mais</a>
+        </article>
+        <article>
+            <img src="imagens/celulares-d1d9d0af946cb838bfcdbc57d1f7ade3-1200x800.jpg" alt="diversos celulares" />
+            <hearder> 
+<br />
+                <time> 01/03/2023 as 14:28</time>
+            </hearder>
+            <h3>A evolução dos celulares</h3>
+            <p> 
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolore facere autem amet repudiandae, hic incidunt nesciunt repellendus! Facilis ullam cum omnis praesentium earum assumenda libero debitis possimus in laboriosam?
+            </p>
+            <a href="#tec" title="Leia a notícia completa">Ler Mais</a>
+        </article>
+        </div> 
+    </section>
+    <section id="entretenimento"> 
+        <div class="container">
+            <h2>Entretenimento</h2>
+            <div class="articles">
+            <article>
+                <img src="imagens/cinema-1-1.jpg" alt="Um casal no cinema com pipoca e refrigerante" />
+                <header>
+                    <time>01/03/2023 às 15:15</time>
+                </header>
+                <h3>Filmes em cartaz no mês de março</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#entretenimento" title="Leia a notícia completa">Ler mais</a>
+            <article>
+<br />
+                <img src="imagens/download (1).jpeg" alt="Layout de imagens de diversos canais do youtube" />
+                <header>
+                    <time>01/03/2023 às 15:15</time>
+                </header>
+                <h3>Os 100 maiores canais do youtube do Brasil</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur consequuntur doloremque totam labore architecto. Corporis adipisci optio placeat quibusdam totam iure veritatis quam, ullam tenetur error? Laborum, modi itaque. Sunt.
+                </p>
+                <a href="#entretenimento" title="Leia a notícia completa">Ler mais</a>
+            </article>
 </body>
-</html> 
+</html>
