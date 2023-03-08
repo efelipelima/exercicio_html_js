@@ -1,0 +1,42 @@
+body {
+    background-image: url(img/background.jpg);
+    background-repeat: no-repeat;
+    background-position: right center bottom;
+    background-size: cover;
+}
+
+#fieldA, #fieldB {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 3px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: chartreuse;
+}
+
+#myForm button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00ff0d;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#myForm label{
+    color: rgb(250, 0, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40pt;
+    font-weight: bolder;
+}
